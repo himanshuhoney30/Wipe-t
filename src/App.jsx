@@ -18,8 +18,8 @@ function App() {
         <section id="about" className="py-24 bg-background">
           <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <div className="relative">
-                <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl">
+              <div className="relative max-w-lg mx-auto lg:mx-0">
+                <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
                   <img
                     src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&q=80&w=1200"
                     alt="Service Professional"
@@ -37,7 +37,7 @@ function App() {
                   Your Reliable Car Cleaning Partner
                 </h2>
                 <p className="text-text-light text-lg mb-8">
-                  At Vehiclean, we understand that your car is more than just a vehicle—it's an investment and a part of your lifestyle. We've dedicated ourselves to providing the highest quality doorstep cleaning services using eco-friendly products and expert techniques.
+                  At WIPE!T, we understand that your car is more than just a vehicle—it's an investment and a part of your lifestyle. We've dedicated ourselves to providing the highest quality doorstep cleaning services using eco-friendly products and expert techniques.
                 </p>
                 <div className="grid grid-cols-2 gap-8 mb-10">
                   <div>
@@ -63,7 +63,7 @@ function App() {
           <div className="container relative z-10 text-center">
             <h2 className="text-4xl md:text-6xl font-black text-white mb-8">Ready for a Sparkling Car?</h2>
             <p className="text-white/80 text-xl mb-10 max-w-2xl mx-auto">
-              Join thousands of happy owners in Jaipur who trust Vehiclean for their weekly car maintenance.
+              Join thousands of happy owners in Jaipur who trust WIPE!T for their weekly car maintenance.
             </p>
             <button className="bg-white text-accent px-10 py-5 rounded-2xl font-black text-xl shadow-2xl hover:bg-gray-50 transition-all transform hover:scale-105 active:scale-95">
               BOOK YOUR WASH NOW

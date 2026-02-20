@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Car } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,11 +17,9 @@ const Navbar = () => {
         <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'glass py-3' : 'bg-transparent py-5'}`}>
             <div className="container flex justify-between items-center">
                 <div className="flex items-center gap-2">
-                    <div className="bg-accent p-2 rounded-lg">
-                        <Car className="text-white" size={24} />
-                    </div>
-                    <span className={`text-2xl font-bold ${isScrolled ? 'text-primary' : 'text-white'}`}>
-                        VEHI<span className="text-accent">CLEAN</span>
+                    <img src="/logo.png" alt="WIPE!T Logo" className=" rounded-full object-contain" style={{width: 60 }} />
+                    <span className={`text-2xl font-bold ${isScrolled ? 'text-primary' : 'text-black'}`}>
+                        WIPE<span className="text-accent">!T</span>
                     </span>
                 </div>
 
@@ -31,7 +29,7 @@ const Navbar = () => {
                         <a
                             key={item}
                             href={`#${item.toLowerCase()}`}
-                            className={`font-medium hover:text-accent transition-colors ${isScrolled ? 'text-primary' : 'text-white'}`}
+                            className={`font-medium hover:text-accent transition-colors`}
                         >
                             {item}
                         </a>

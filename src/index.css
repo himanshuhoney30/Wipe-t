@@ -146,8 +146,16 @@ button {
   text-align: right;
 }
 
+.text-8xl {
+  font-size: 6rem;
+}
+
 .text-white {
   color: var(--white);
+}
+
+.text-white-light {
+  color: rgba(255, 255, 255, 0.05);
 }
 
 .text-primary {
@@ -228,6 +236,14 @@ button {
 
 .bg-accent {
   background-color: var(--accent);
+}
+
+.bg-accent\/10 {
+  background-color: rgba(14, 165, 233, 0.1);
+}
+
+.border-accent {
+  border: 2px solid var(--accent);
 }
 
 .bg-background {
@@ -357,6 +373,34 @@ button {
   height: 100vh;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.rotate-12 {
+  transform: rotate(12deg);
+}
+
+.-rotate-12 {
+  transform: rotate(-12deg);
+}
+
+.hover\:rotate-0:hover {
+  transform: rotate(0deg);
+}
+
 .fixed {
   position: fixed;
 }
@@ -374,6 +418,30 @@ button {
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.-top-4 {
+  top: -1rem;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.-left-4 {
+  left: -1rem;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.-translate-x-1\/2 {
+  transform: translateX(-50%);
+}
+
+.pointer-events-none {
+  pointer-events: none;
 }
 
 .z-10 {
@@ -416,6 +484,26 @@ button {
 
 .shadow-2xl {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.top-\[60px\] {
+  top: 60px;
+}
+
+.left-\[10\%\] {
+  left: 10%;
+}
+
+.right-\[10\%\] {
+  right: 10%;
+}
+
+.h-\[2px\] {
+  height: 2px;
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, rgba(14, 165, 233, 0), rgba(14, 165, 233, 0.5), rgba(14, 165, 233, 0));
 }
 
 .overflow-hidden {

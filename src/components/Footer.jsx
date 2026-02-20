@@ -1,5 +1,5 @@
 import React from 'react';
-import { Car, Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -9,11 +9,9 @@ const Footer = () => {
                     {/* Brand */}
                     <div className="col-span-1 lg:col-span-1">
                         <div className="flex items-center gap-2 mb-6">
-                            <div className="bg-accent p-2 rounded-lg">
-                                <Car className="text-white" size={24} />
-                            </div>
+                            <img src="/logo.png" alt="WIPE!T Logo" className="w-12 h-12 object-contain" />
                             <span className="text-2xl font-bold text-primary">
-                                VEHI<span className="text-accent">CLEAN</span>
+                                WIPE<span className="text-accent">!T</span>
                             </span>
                         </div>
                         <p className="text-text-light mb-8">
@@ -76,7 +74,7 @@ const Footer = () => {
                 </div>
 
                 <div className="pt-10 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-4 text-text-light text-sm">
-                    <p>© 2024 Vehiclean. All rights reserved.</p>
+                    <p>© 2024 WIPE!T. All rights reserved.</p>
                     <div className="flex gap-8">
                         <a href="#" className="hover:text-accent">Privacy Policy</a>
                         <a href="#" className="hover:text-accent">Terms of Service</a>

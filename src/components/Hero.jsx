@@ -33,7 +33,7 @@ const Hero = () => {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
+                        className="text-5xl md:text-7xl font-bold text-black mb-6 leading-tight"
                     >
                         Professional <span className="text-accent underline decoration-accent/30">Car Wash</span> At Your Doorstep
                     </motion.h1>
@@ -56,7 +56,7 @@ const Hero = () => {
                         <button className="bg-accent hover:bg-accent-dark text-white px-8 py-4 rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all transform hover:scale-105 active:scale-95 shadow-xl shadow-accent/20">
                             Get Started Now <ArrowRight size={20} />
                         </button>
-                        <button className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white px-8 py-4 rounded-xl font-bold text-lg border border-white/20 transition-all">
+                        <button className="bg-white/10 hover:bg-white/20 backdrop-blur-md text-black px-8 py-4 rounded-xl font-bold text-lg border border-white/20 transition-all">
                             View Our Packages
                         </button>
                     </motion.div>

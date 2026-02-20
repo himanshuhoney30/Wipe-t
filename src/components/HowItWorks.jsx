@@ -55,7 +55,7 @@ const HowItWorks = () => {
                             <p className="text-white/60">{step.desc}</p>
 
                             {/* Number Index */}
-                            <div className="absolute -top-4 -left-4 text-8xl font-black text-white/5 pointer-events-none">
+                            <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-8xl font-black text-white-light pointer-events-none">
                                 0{index + 1}
                             </div>
                         </motion.div>
